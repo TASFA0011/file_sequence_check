@@ -14,7 +14,9 @@ class Api {
   // ignore: non_constant_identifier_names
   // static String URL_BASE = 'http://127.0.0.1:5009';
   // ignore: non_constant_identifier_names
-  static String URL_BASE = 'http://80.208.226.85:5009';
+  // static String URL_BASE = 'http://80.208.226.85:5009';
+  static String URL_BASE = 'https://control-rocket-span-beings.trycloudflare.com';
+
 
   static bool ok(int code) => code >= 200 && code < 300;
 
